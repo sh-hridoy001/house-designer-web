@@ -9,6 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
     <!-- Google font -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,12 +22,89 @@
         }
     </style>
 </head>
-<body class="font-poppins">
+<body class="font-poppins ">
 
     <!-- Header -->
-     <Header >
-        <h3 class="">Hi , Sazzad Hossain Hridoy . How are you?</h3>
-     </Header>
+    <Header class="md:container mx-auto">
+        <!-- Navigation Bar -->
+       <nav>
+            <div class="navbar bg-base-100 ">
+                <div class="navbar-start "> 
+
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="text-[#93e13a] lg:hidden px-1 font-bold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                        </div>
+                        <ul
+                            tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow ">
+                            <li><a>Home</a></li>
+                            <li><a>Service</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                        </div>
+                        <a class="text-3xl font-bold text-[#93e13a]">Rinterio</a>
+                    </div>
+
+                    <!-- List-->
+                    <div class="navbar-center hidden lg:flex  ">
+                        <ul class="  menu-horizontal px-1 text-gray-800 gap-5 font-semibold ">
+                            <li class="hover:text-[#93e13a]"><a>Home</a></li>
+                            <li class="hover:text-[#93e13a]"><a>Service</a></li>
+                            <li class="hover:text-[#93e13a]"><a>Portfolio</a></li>
+                            <li class="hover:text-[#93e13a]"><a>Blogs</a></li>
+                            <li class="hover:text-[#93e13a]"><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!--Navbar last part-->
+                    <div class="navbar-end gap-3 hidden md:flex">
+                        <button class="btn btn-ghost btn-circle hover:bg-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /> </svg>
+                        </button>
+                        <button class="btn btn-ghost btn-circle hover:bg-white">
+                            <div class="indicator">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /> </svg>
+                                
+                            </div>
+
+
+                        </button>
+                        <button class="text-gray-800 font-bold px-4 py-2 rounded-4xl hover:bg-[#93e13a] bg-[#ABEF5F] hover:text-white transition duration-300" >Book Consult <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></button>
+                    </div>
+                </div>
+            </div>
+       </nav>
+
+       <!-- Hero area-->
+        <div class="flex justify-center items-center px-4 py-12 ">
+            <div class="text-center max-w-5xl">
+                <!-- Banner Image -->
+                <div class="mb-6">
+                    <img src="/assets/banner.png" alt="Barn House Banner" class="w-4/6 mx-auto" />
+                </div>
+
+                <!-- Heading -->
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
+                    A barn house of this design has a striking appearance
+                </h1>
+
+                <!-- Paragraph -->
+                <p class="text-lg text-gray-600 mb-8">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+
+                <!-- Button -->
+                <button class="text-gray-800 font-semibold px-6 py-3 rounded-full bg-[#ABEF5F] hover:bg-[#93e13a] hover:text-white transition duration-300">
+                    Book Consult <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i> </button>
+            </div>
+        </div>
+
+        
+
+    </Header>
 
 
      <!--Main Section-->

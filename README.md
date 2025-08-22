@@ -1,6 +1,6 @@
 # House Designer Web
 
-![Hero Banner](banner.jpg)  
+![Hero Banner](https://github.com/sh-hridoy001/house-designer-web/blob/main/Screenshot%202025-08-22%20120418.png)  
 *Transforming your dreams into beautifully designed homes*
 
 ---

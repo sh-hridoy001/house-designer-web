@@ -85,11 +85,4 @@ Encourages deeper engagement and positions you as a thought leader.
 
 ##  Getting Started
 
-To run the site locally:
-
-```bash
-git clone https://github.com/yourusername/house-designer-web.git
-cd house-designer-web
-# Option 1: Open index.html directly
-# Option 2: If using a local server:
-npx serve .
+https://illustrious-bonbon-ee9ecc.netlify.app/
